@@ -1,0 +1,2 @@
+global.totemLoc=false
+nome=""
