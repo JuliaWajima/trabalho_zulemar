@@ -18,3 +18,5 @@ switch (facing) {
 	        case "right":sprite_index=imgPr;image_index=3; break;
 	    }	
 }
+
+temTotem = false

@@ -1,1 +1,1 @@
-nome="Bem-te-vi"
+global.falou_um_vez=false

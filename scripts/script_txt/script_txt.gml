@@ -4,7 +4,15 @@ function scr_textos(){
 			ds_grid_add_text("SANGUE DE CRISTO TEM PODER...UM FANTASMA! QUEM É VOCÊ???",spr_btv,"Bem-te-vi")
 			ds_grid_add_text("Sinceramente, não sei te dizer quem eu sou, já fazem muitos anos desde que morri.",imgDir,"Fantasma")
 			ds_grid_add_text("Mas se tem algo que posso lhe dizer, é que minha história foi esquecida com o passar do tempo, a falta de preservação e escrituras sobre, fez com que a verdade se esvaísse ao longo dos anos e hoje, não resta algo para se lembrar.",imgDir,"Fantasma")
-			ds_grid_add_text("Sinceramente, não sei te dizer quem eu sou, já fazem muitos anos desde que morri.",imgDir,"Fantasma")
+			ds_grid_add_text("Imagino como isso deve ser difícil, mas é estranho ver como a história se repete.",spr_btv,"Bem-te-vi")
+			ds_grid_add_text("Nesta igreja ao lado, os integrantes têm se esquecido de preservar os ocorridos, seria legal se alguém pudesse ajudá-los...",spr_btv,"Bem-te-vi")
+			ds_grid_add_text("Talvez você possa, o que me diz?",spr_btv,"Bem-te-vi")
+			ds_grid_add_text("Está vendo este tótem? Ele representa a imigração dos italianos para estas terras, muitos anos atrás, pegue ele para mim",spr_btv,"Bem-te-vi")
+			global.falou_um_vez=true
+		break;
+		
+		case "Bem-te-vi-2":
+			ds_grid_add_text("SANGUE DE CRISTO TEM PODER...UM FANTASMA! QUEM É VOCÊ???",spr_btv,"Bem-te-vi")
 		break;
 	}
 }	
