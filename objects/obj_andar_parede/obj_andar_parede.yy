@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_amanda",
+  "%Name":"obj_andar_parede",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_amanda",
+  "name":"obj_andar_parede",
   "overriddenProperties":[],
   "parent":{
-    "name":"npcs",
-    "path":"folders/Objects/npcs.yy",
+    "name":"background",
+    "path":"folders/Objects/background.yy",
   },
   "parentObjectId":{
     "name":"obj_par_npcs",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_amanda",
-    "path":"sprites/spr_amanda/spr_amanda.yy",
+    "name":"spr_andar",
+    "path":"sprites/spr_andar/spr_andar.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,44 +1,25 @@
 function scr_textos(){
 	switch npc_nome{
 		case "Bem-te-vi":
-			global.currentFont=fonte_beteve
-			texto[0]="SANGUE DE CRISTO TEM PODER...UM FANTASMA! QUEM É VOCÊ???";
-			global.currentFont=Font1
-			texto[1]="Sinceramente, não sei te dizer quem eu sou, já fazem muitos anos desde que morri."
-			texto[2]="Mas se tem algo que posso lhe dizer, é que minha história foi esquecida com o passar do tempo"
-			texto[3]="a falta de preservação e escrituras sobre, fez com que a verdade se esvaísse ao longo dos anos e hoje, não resta algo para se lembrar."
+			ds_grid_add_text("SANGUE DE CRISTO TEM PODER...UM FANTASMA! QUEM É VOCÊ???",spr_btv,"Bem-te-vi")
+			ds_grid_add_text("Sinceramente, não sei te dizer quem eu sou, já fazem muitos anos desde que morri.",imgDir,"Fantasma")
+			ds_grid_add_text("Mas se tem algo que posso lhe dizer, é que minha história foi esquecida com o passar do tempo, a falta de preservação e escrituras sobre, fez com que a verdade se esvaísse ao longo dos anos e hoje, não resta algo para se lembrar.",imgDir,"Fantasma")
+			ds_grid_add_text("Sinceramente, não sei te dizer quem eu sou, já fazem muitos anos desde que morri.",imgDir,"Fantasma")
 		break;
-		case "nome_japonesa":
-			global.currentFont=fonte_beteve
-			texto[0]="que confusao que confusao"
-		break;
-		
-		case "nome_historiador":
-			global.currentFont=fonte_beteve
-			texto[0]="Os primeiros italianos chegaram no final do seculo XIX. Vieram por causa da terra fertil, do trabalho e da fe."
-		break;
-		
-		case "nome_francisco":
-			global.currentFont=fonte_beteve
-			texto[0]="Esta igreja foi erguida com esforco e fe. Cada pedra tem uma historia. Ajude a preservar essa memoria"
-		break;
-		
-		case "nome_dolores":
-			global.currentFont=fonte_beteve
-			texto[0]="A polenta e a fortaia nao sao so comidas, sao tradicoes passadas de geracao em geracao. Sao parte da nossa memoria."
-		break;
-		
-		case "nome_padre":
-			global.currentFont=fonte_beteve
-			texto[0]="Muitos visitantes vem ate aqui para rezar e celebrar. E nossa missao cuidar da fe e da memoria desta comunidade."
-		break;
-		
-		case "nome_irma":
-			global.currentFont=fonte_beteve
-			texto[0]="A memoria de um povo vive nos seus espacos e tradicoes. Se nao preservarmos isso, perdemos quem somos."
-		break;
-	
 	}
 }	
 
+function ds_grid_add_row() {
+	var _grid = argument[0];
+	ds_grid_resize(_grid, ds_grid_width(_grid), ds_grid_height(_grid) + 1);
+	return ds_grid_height(_grid) - 1;
+}
 
+function ds_grid_add_text() {
+	var _grid = textos_grid;
+	var _y = ds_grid_add_row(_grid);
+	
+	_grid[# Infos.Texto, _y] = argument[0];
+	_grid[# Infos.Retrato, _y] = argument[1];
+	_grid[# Infos.Nome, _y]   = argument[2];
+}
