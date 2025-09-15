@@ -3,15 +3,16 @@
   "%Name":"notawall",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"trophy","path":"objects/trophy/trophy.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"coiso","path":"objects/coiso/coiso.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"notawall",
   "overriddenProperties":[],
   "parent":{
-    "name":"background",
-    "path":"folders/Objects/background.yy",
+    "name":"totem e coiso",
+    "path":"folders/Objects/background/totem e coiso.yy",
   },
   "parentObjectId":{
     "name":"obj_par_npcs",
@@ -35,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"t1",
-    "path":"sprites/t1/t1.yy",
+    "name":"pedestal_spr_1",
+    "path":"sprites/pedestal_spr_1/pedestal_spr_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

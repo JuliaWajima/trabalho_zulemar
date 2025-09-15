@@ -1,15 +1,5 @@
-function shift(){
-	if(keyboard_check(vk_shift)){
-		spd=5
-	}
-	else{
-		spd=3
-	}
-}
 facing="down"
-
-a=9
-
+spd=3
 function fac(){
 switch (facing) {
 	        case "up": sprite_index=imgPr;image_index=0; break;
@@ -19,4 +9,3 @@ switch (facing) {
 	    }	
 }
 
-temTotem = false

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"script_txt",
   "parent":{
-    "name":"npcs",
-    "path":"folders/Objects/npcs.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

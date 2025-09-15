@@ -1,1 +1,2 @@
 can_talk=false;
+nome = "???";

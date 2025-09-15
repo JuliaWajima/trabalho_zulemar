@@ -1,0 +1,2 @@
+global.totemNoLocal_2=false
+global.totemDest_2=false

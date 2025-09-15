@@ -1,2 +1,0 @@
-global.totemLoc=false
-nome=""
