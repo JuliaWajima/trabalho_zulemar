@@ -66,7 +66,8 @@ function scr_textos() {
 	    if global.totemDest_3 {
 	        ds_grid_add_text("Os sinos voltaram a soar, a igreja foi lembrada no mapa.", nospr, "Mundo");
 	    } else {
-	        ds_grid_add_text("", nospr, "");
+	        ds_grid_add_text("Que estranho... essa igreja parece estar se desfazendo. Os bancos de madeira, o som distante do órgão, até o eco das orações... tudo está desaparecendo aos poucos.",imgDir, "Fantasma");
+			ds_grid_add_text("Se ninguém guardar isso na memória, será como se nunca tivesse havido fé entre essas paredes.",imgDir, "Fantasma");
 	    }
 		break;
 

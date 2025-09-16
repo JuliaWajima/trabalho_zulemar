@@ -11,7 +11,10 @@
     "name":"room_goto",
     "path":"folders/Objects/room_goto.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_par_npcs",
+    "path":"objects/obj_par_npcs/obj_par_npcs.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,5 +37,5 @@
     "path":"sprites/nospr/nospr.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

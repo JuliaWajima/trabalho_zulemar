@@ -1,3 +1,3 @@
-if(global.totemNoLocal){
+if(global.totemNoLocal==true){
 	 instance_destroy(self)
 }

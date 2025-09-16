@@ -1,6 +1,6 @@
 opcao1= { texto : "Jogar" , 
 	funcao : function(){ 
-		room_goto_next() 
+		room_goto(room_cemiterio) 
 			},
 		} 
 opcao2= { texto : "Sair" ,

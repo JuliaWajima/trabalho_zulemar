@@ -54,3 +54,5 @@ if (distance_to_object(obj_par_npcs) <= 10) {
     }
 }
 #endregion
+
+show_debug_message(global.arrayTotem)

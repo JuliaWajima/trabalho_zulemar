@@ -38,5 +38,5 @@
     "path":"sprites/nospr/nospr.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

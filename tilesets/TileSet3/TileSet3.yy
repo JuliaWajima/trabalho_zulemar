@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Sprite54",
-    "path":"sprites/Sprite54/Sprite54.yy",
+    "name":"Sprite48",
+    "path":"sprites/Sprite48/Sprite48.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -28,11 +28,11 @@
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,
-  "tileHeight":26,
+  "tileHeight":36,
   "tilehsep":0,
   "tilevsep":0,
-  "tileWidth":18,
-  "tilexoff":22,
+  "tileWidth":30,
+  "tilexoff":10,
   "tileyoff":0,
-  "tile_count":6,
+  "tile_count":4,
 }
